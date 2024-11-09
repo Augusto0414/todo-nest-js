@@ -1,0 +1,8 @@
+dist/
+node_modules/
+README.md
+Dockerfile
+.dockerignore
+test/
+.env
+.env_template
