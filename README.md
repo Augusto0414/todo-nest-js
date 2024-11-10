@@ -7,7 +7,7 @@ $ npm install
 # Levantar los contenedores de Docker
 
 ```bash
-$ docker-compose up -d
+$ docker compose -f docker-compose.dev.yml  up
 ```
 
 # Crear un archivo .env y agregar la siguiente línea
@@ -35,4 +35,16 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+```
+
+# Crear Imagen y ejecutar
+
+```bash
+ #Generar Imagen del dockerfile
+$ docker build -t my-app .
+
+ #probar la imagen con una bd postgres
+$ docker compose -f docker-compose.yml  up
+
+``
 ```

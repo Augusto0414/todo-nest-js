@@ -1,9 +1,9 @@
 -- CreateTable
-CREATE TABLE "todo" (
+CREATE TABLE "Todo" (
     "id" TEXT NOT NULL,
     "title" TEXT NOT NULL,
     "description" TEXT NOT NULL,
     "completed" BOOLEAN NOT NULL DEFAULT false,
 
-    CONSTRAINT "todo_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "Todo_pkey" PRIMARY KEY ("id")
 );
