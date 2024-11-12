@@ -48,3 +48,9 @@ $ docker compose -f docker-compose.yml  up
 
 ``
 ```
+
+# Link del dockerhub
+
+```plaintext
+https://hub.docker.com/repository/docker/augusto04/nest-api/general
+```
